@@ -4,7 +4,8 @@ on:
   push:
     paths:
     - "**Dockerfile**"
-    branches: [ add-dockerfile ]
+    branches:
+    - add-dockerfile
 jobs:
   build:
     runs-on: ubuntu-latest
